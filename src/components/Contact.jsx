@@ -20,7 +20,7 @@ const Contact = () => {
             <h3>Phone</h3>
             <p>+91 7204203392</p>
           </a>
-          <a href="https://linkedin.com/in/shreejan-shetty" target="_blank" rel="noopener noreferrer" className="contact-card card">
+          <a href="https://linkedin.com/in/shreejan-shetty-620a79291/" target="_blank" rel="noopener noreferrer" className="contact-card card">
             <span className="contact-icon">💼</span>
             <h3>LinkedIn</h3>
             <p>linkedin.com/in/shreejan-shetty</p>
