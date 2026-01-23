@@ -23,7 +23,7 @@ const Contact = () => {
           <a href="https://linkedin.com/in/shreejan-shetty-620a79291/" target="_blank" rel="noopener noreferrer" className="contact-card card">
             <span className="contact-icon">💼</span>
             <h3>LinkedIn</h3>
-            <p>linkedin</p>
+            <p>linkedin.com/in/shreejan-shetty</p>
           </a>
           <a href="https://github.com/Shreejan2011" target="_blank" rel="noopener noreferrer" className="contact-card card">
             <span className="contact-icon">💻</span>
