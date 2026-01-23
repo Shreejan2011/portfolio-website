@@ -32,7 +32,7 @@ const Contact = () => {
           </a>
         </div>
         <div className="location-info">
-          <span className="location-icon">📍</span>
+          <span className="location-icon"></span>
           <p>Mangalore, Karnataka, India</p>
         </div>
       </div>
