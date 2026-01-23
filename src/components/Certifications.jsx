@@ -6,19 +6,19 @@ const Certifications = () => {
       title: "Software Engineering Job Simulation",
       issuer: "JPMorgan Chase",
       icon: "💼",
-      file: "/certificates/jpmorgan_SE.pdf"
+      file: `${import.meta.env.BASE_URL}certificates/jpmorgan_SE.pdf`
     },
     {
       title: "Cyber Job Simulation",
       issuer: "Deloitte Australia",
       icon: "🔐",
-      file: "/certificates/Deloitte_cyber.pdf"
+      file: `${import.meta.env.BASE_URL}certificates/Deloitte_cyber.pdf`
     },
     {
       title: "Data Analytics Job Simulation",
       issuer: "Deloitte Australia",
       icon: "📊",
-      file: "/certificates/Deloitte_DataAnalytics.pdf"
+      file: `${import.meta.env.BASE_URL}certificates/Deloitte_DataAnalytics.pdf`
     }
   ]
 
