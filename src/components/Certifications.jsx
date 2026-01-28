@@ -5,22 +5,23 @@ const Certifications = () => {
     {
       title: "Software Engineering Job Simulation",
       issuer: "JPMorgan Chase",
-      icon: "💼",
+      logo: `${import.meta.env.BASE_URL}jpmorgann.png`,
       file: `${import.meta.env.BASE_URL}certificates/jpmorgan_SE.pdf`
     },
     {
       title: "Cyber Job Simulation",
       issuer: "Deloitte Australia",
-      icon: "🔐",
+      logo: `${import.meta.env.BASE_URL}deloitte.jpg`,
       file: `${import.meta.env.BASE_URL}certificates/Deloitte_cyber.pdf`
     },
     {
       title: "Data Analytics Job Simulation",
       issuer: "Deloitte Australia",
-      icon: "📊",
+      logo: `${import.meta.env.BASE_URL}deloitte.jpg`,
       file: `${import.meta.env.BASE_URL}certificates/Deloitte_DataAnalytics.pdf`
     }
   ]
+
 
   const achievements = [
     {
@@ -43,19 +44,25 @@ const Certifications = () => {
 
         <div className="cert-grid">
           {certifications.map((cert, index) => (
-            <div
-              key={index}
-              className="cert-card card"
-              onClick={() => openCertificate(cert.file)}
-              title="Click to view certificate"
-            >
-              <span className="cert-icon">{cert.icon}</span>
-              <h4>{cert.title}</h4>
-              <p>{cert.issuer}</p>
-              <small>Click to view</small>
-            </div>
+              <div
+                  key={index}
+                  className="cert-card card"
+                  onClick={() => openCertificate(cert.file)}
+                  title="Click to view certificate"
+              >
+                <img
+                    src={cert.logo}
+                    alt={cert.issuer}
+                    className="cert-logo"
+                />
+
+                <h4>{cert.title}</h4>
+                <p>{cert.issuer}</p>
+                <small>Click to view</small>
+              </div>
           ))}
         </div>
+
       </div>
 
       <div className="cert-section">

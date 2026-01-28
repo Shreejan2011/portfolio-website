@@ -9,6 +9,12 @@
 .cert-section:last-child {
   margin-bottom: 0;
 }
+.cert-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
 
 .subsection-title {
   font-size: 1.8rem;
