@@ -30,7 +30,7 @@ const Experience = () => {
                 <h4>Bachelor of Technology - AI & ML</h4>
                 <p className="institution">NMAM Institute of Technology, Nitte</p>
                 <p className="timeline-date">2022 - 2026</p>
-                <p className="grade">CGPA: 8.86</p>
+                <p className="grade">CGPA: 8.91</p>
               </div>
             </div>
             <div className="timeline-item">
