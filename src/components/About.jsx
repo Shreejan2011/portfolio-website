@@ -24,7 +24,7 @@ const About = () => {
         </div>
         <div className="about-stats">
           <div className="stat-card">
-            <h3>8.86</h3>
+            <h3>8.91</h3>
             <p>CGPA</p>
           </div>
           <div className="stat-card">
