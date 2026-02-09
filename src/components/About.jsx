@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-text">
           <p>
             I'm a final-year B.Tech student at <strong>NMAM Institute of Technology</strong>, 
-            specializing in Artificial Intelligence and Machine Learning with a CGPA of 8.86.
+            specializing in Artificial Intelligence and Machine Learning with a CGPA of 8.91.
           </p>
           <p>
             My passion lies in building intelligent systems that solve real-world problems. 
